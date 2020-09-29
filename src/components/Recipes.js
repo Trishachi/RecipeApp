@@ -9,7 +9,7 @@ const Recipes = (props) => (
         return (
           <div
             key={recipe.title}
-            className="col-md-4"
+            className="col-sm-6 col-md-4"
             style={{ marginBottom: "2rem" }}
           >
             <div className="recipes__box">

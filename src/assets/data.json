@@ -1,0 +1,29 @@
+{
+  "count": 10,
+  "recipes": [
+    {
+      "image_url": "https://res.cloudinary.com/dk4ocuiwa/image/upload/v1575163942/RecipesApi/crispybakedchickenwingswithbuffalosauce6468aa9.jpg",
+      "social_rank": 99.99993605898699,
+      "_id": "5dd2cf62048fe004af4486c8",
+      "publisher": "Bon Appetit",
+      "source_url": "http://www.bonappetit.com/recipes/2012/02/crispy-baked-chicken-wings",
+      "recipe_id": "49421",
+      "publisher_url": "http://www.bonappetit.com",
+      "title": "Crispy Baked Chicken Wings",
+      "ingredients": [
+        "1 medium head cauliflower, cut into florets",
+        "1 egg",
+        "1/2 cup mozzarella, shredded",
+        "1 teaspoon oregano or Italian seasoning blend",
+        "salt and pepper to taste",
+        "1 cup chicken, cooked and shredded",
+        "1/2 cup barbecue sauce",
+        "3/4 cup mozzarella, shredded",
+        "red onion to taste, thinly sliced",
+        "fresh cilantro to taste\n"
+      ],
+      "category": "chicken",
+      "video_directions": "http://www.bonappetit.com"
+    }
+  ]
+}
