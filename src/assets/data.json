@@ -2,28 +2,28 @@
   "count": 10,
   "recipes": [
     {
-      "image_url": "https://res.cloudinary.com/dk4ocuiwa/image/upload/v1575163942/RecipesApi/crispybakedchickenwingswithbuffalosauce6468aa9.jpg",
+      "image_url": "https://elleyajoku.com/wp-content/uploads/2017/10/jollof-rice-recipe_.jpg",
       "social_rank": 99.99993605898699,
       "_id": "5dd2cf62048fe004af4486c8",
-      "publisher": "Bon Appetit",
-      "source_url": "http://www.bonappetit.com/recipes/2012/02/crispy-baked-chicken-wings",
+      "publisher": "Elaanor's Dish",
+      "source_url": "https://elleyajoku.com/food/jollof-rice-recipe",
       "recipe_id": "49421",
-      "publisher_url": "http://www.bonappetit.com",
-      "title": "Crispy Baked Chicken Wings",
+      "publisher_url": "https://elleyajoku.com/",
+      "title": "Party Jollof Rice",
       "ingredients": [
-        "1 medium head cauliflower, cut into florets",
-        "1 egg",
-        "1/2 cup mozzarella, shredded",
-        "1 teaspoon oregano or Italian seasoning blend",
-        "salt and pepper to taste",
-        "1 cup chicken, cooked and shredded",
-        "1/2 cup barbecue sauce",
-        "3/4 cup mozzarella, shredded",
-        "red onion to taste, thinly sliced",
-        "fresh cilantro to taste\n"
+        "4 Tablespoons of Canola oil",
+        "1 Tbsp butter",
+        "4 Fresh tomatoes or one 14.5oz can of diced tomatoes",
+        "1 6oz can Tomato paste",
+        "4 Red onions",
+        "2 Red bell peppers (tatashe)",
+        "crayfish (optional, but I love to use it)",
+        "4 Habanero pepper",
+        "4 1/2 cups of long-grain parboiled rice",
+        "2 cups of chicken stock\n"
       ],
       "category": "chicken",
-      "video_directions": "http://www.bonappetit.com"
+      "video_directions": "https://www.youtube.com/watch?v=I0sntxjUe6U"
     }
   ]
 }
