@@ -1,23 +1,37 @@
 import React from "react";
-
 import { Link } from "react-router-dom";
+import Data from "../assets/data.json";
 
 class Recipe extends React.Component {
   state = {
     activeRecipe: [],
   };
 
+  // componentDidMount = async () => {
+  //   const title = this.props.location.state.recipe;
+  //   const req = await fetch(
+  //     `https://cors-anywhere.herokuapp.com/https://recipesapi.herokuapp.com/api/search?q=${title}`
+  //   );
+  //   const res = await req.json();
+  //   this.setState({ activeRecipe: res.recipes[0] });
+  //   console.log(this.state.activeRecipe);
+  // };
+
   componentDidMount = async () => {
     const title = this.props.location.state.recipe;
-    const req = await fetch(
-      `https://cors-anywhere.herokuapp.com/https://recipesapi.herokuapp.com/api/search?q=${title}`
-      // `src/assets/data.json`
-    );
-    const res = await req.json();
-
-    this.setState({ activeRecipe: res.recipes[0] });
-    console.log(this.state.activeRecipe);
+    var result = [];
+    var searchField = "title";
+    var searchVal = title.toLowerCase();
+    for (var i = 0; i < Data.recipes.length; i++) {
+      if (Data.recipes[i][searchField].toLowerCase() === searchVal) {
+        result.push(Data.recipes[i]);
+      }
+    }
+    this.setState({ activeRecipe: result[0] });
+    // console.log(result[0]);
+    // console.log(this.state.activeRecipe);
   };
+
   render() {
     const recipe = this.state.activeRecipe;
     return (

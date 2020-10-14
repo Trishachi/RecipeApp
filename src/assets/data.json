@@ -4,10 +4,10 @@
     {
       "image_url": "https://elleyajoku.com/wp-content/uploads/2017/10/jollof-rice-recipe_.jpg",
       "social_rank": 99.99993605898699,
-      "_id": "5dd2cf62048fe004af4486c8",
+      "_id": "5dd2cf62048fe004af10001",
       "publisher": "Elaanor's Dish",
       "source_url": "https://elleyajoku.com/food/jollof-rice-recipe",
-      "recipe_id": "49421",
+      "recipe_id": "9jarecapp0001",
       "publisher_url": "https://elleyajoku.com/",
       "title": "Party Jollof Rice",
       "ingredients": [
@@ -24,6 +24,52 @@
       ],
       "category": "chicken",
       "video_directions": "https://www.youtube.com/watch?v=I0sntxjUe6U"
+    },
+    {
+      "image_url": "https://www.kitchenbutterfly.com/wp-content/uploads/2015/01/5483300828_94e837c676.jpg",
+      "social_rank": 98.77765,
+      "_id": "5dd2cf62048fe004af10002",
+      "publisher": "Kitchen Butterfly",
+      "source_url": "https://www.kitchenbutterfly.com/2011/how-to-make-nigerian-pepper-soup/",
+      "recipe_id": "9jarecapp0002",
+      "publisher_url": "https://www.kitchenbutterfly.com",
+      "title": "pepper soup",
+      "ingredients": [
+        "1.25kg of ‘soup’ (hard) chicken or goat meat, cut in bite-sized pieces",
+        "2.5 litres of water",
+        "3 tablespoons of peppersoup spice mix",
+        "1 stalk of lemon grass",
+        "1 – 2 Maggi bouillon cubes",
+        "Ground red chilies/ cayenne pepper, to taste",
+        "Salt, to taste",
+        "2 teaspoons of ground crayfish (optional)"
+      ],
+      "category": "Soup",
+      "video_directions": "https://www.youtube.com/watch?v=TuY5SA5Dcq0"
+    },
+    {
+      "image_url": "https://answersnigeria.com/wp-content/uploads/2020/02/egusi-soup-recipe-806x440.jpg",
+      "social_rank": 99.67,
+      "_id": "5dd2cf62048fe004af10002",
+      "publisher": "Answers Nigeria",
+      "source_url": "https://answersnigeria.com/egusi-soup/",
+      "recipe_id": "9jarecapp0002",
+      "publisher_url": "https://answersnigeria.com",
+      "title": "Egusi (Melon Seed) Soup",
+      "ingredients": [
+        "2KG Chicken meat",
+        "4 cups of egusi seeds",
+        "1/2 cup crayfish",
+        "200g Dried fish",
+        "3 seasoning cubes",
+        "300 ml of palm oil",
+        "5 Scotch bonnet pepper",
+        "200g Stock Fish",
+        "1 Small Dawadaw or Okpei",
+        "1 cup bitter leaves/spinach"
+      ],
+      "category": "Soup",
+      "video_directions": ""
     }
   ]
 }
