@@ -10,17 +10,6 @@ class App extends Component {
     recipes: [],
   };
 
-  // getRecipe = async (event) => {
-  //   event.preventDefault();
-  //   const recipeName = event.target.elements.recipeName.value;
-  //   const api_call = await fetch(
-  //     `https://cors-anywhere.herokuapp.com/https://recipesapi.herokuapp.com/api/search?q=${recipeName}&page=1`
-  //   );
-  //   const data = await api_call.json();
-  //   this.setState({ recipes: data.recipes });
-  //   console.log(this.state.recipes);
-  // };
-
   getRecipe = (event) => {
     event.preventDefault();
     const recipeName = event.target.elements.recipeName.value;
@@ -34,12 +23,6 @@ class App extends Component {
     }
     this.setState({ recipes: results });
   };
-
-  // componentDidMount = () => {
-  //   const json = localStorage.getItem("recipes");
-  //   const recipes = JSON.parse(json);
-  //   this.setState({ recipes });
-  // };
 
   componentDidMount = () => {
     const recipes = Data.recipes;
@@ -59,6 +42,11 @@ class App extends Component {
         </header>
         <Form getRecipe={this.getRecipe} />
         <Recipes recipes={this.state.recipes} />
+        <footer>
+          <p className="copyright font-italic">
+            Copyright © 2020 | Chisom Trisha Okoye
+          </p>
+        </footer>
       </div>
     );
   }

@@ -108,6 +108,10 @@ input:-webkit-autofill {
   -webkit-text-fill-color: #2c3e50 !important;
 }
 
+footer .copyright {
+  font-size: 0.85em;
+}
+
 /******** RECIPE.js ********/
 
 .active-recipe {

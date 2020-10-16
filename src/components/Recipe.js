@@ -7,16 +7,6 @@ class Recipe extends React.Component {
     activeRecipe: [],
   };
 
-  // componentDidMount = async () => {
-  //   const title = this.props.location.state.recipe;
-  //   const req = await fetch(
-  //     `https://cors-anywhere.herokuapp.com/https://recipesapi.herokuapp.com/api/search?q=${title}`
-  //   );
-  //   const res = await req.json();
-  //   this.setState({ activeRecipe: res.recipes[0] });
-  //   console.log(this.state.activeRecipe);
-  // };
-
   componentDidMount = async () => {
     const title = this.props.location.state.recipe;
     var result = [];
@@ -28,8 +18,6 @@ class Recipe extends React.Component {
       }
     }
     this.setState({ activeRecipe: result[0] });
-    // console.log(result[0]);
-    // console.log(this.state.activeRecipe);
   };
 
   render() {
