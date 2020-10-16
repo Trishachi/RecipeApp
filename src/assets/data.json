@@ -22,7 +22,7 @@
         "4 1/2 cups of long-grain parboiled rice",
         "2 cups of chicken stock\n"
       ],
-      "category": "chicken",
+      "category": "Chicken",
       "video_directions": "https://www.youtube.com/watch?v=I0sntxjUe6U"
     },
     {
@@ -50,10 +50,10 @@
     {
       "image_url": "https://answersnigeria.com/wp-content/uploads/2020/02/egusi-soup-recipe-806x440.jpg",
       "social_rank": 99.67,
-      "_id": "5dd2cf62048fe004af10002",
+      "_id": "5dd2cf62048fe004af10003",
       "publisher": "Answers Nigeria",
       "source_url": "https://answersnigeria.com/egusi-soup/",
-      "recipe_id": "9jarecapp0002",
+      "recipe_id": "9jarecapp0003",
       "publisher_url": "https://answersnigeria.com",
       "title": "Egusi (Melon Seed) Soup",
       "ingredients": [
@@ -69,7 +69,84 @@
         "1 cup bitter leaves/spinach"
       ],
       "category": "Soup",
-      "video_directions": ""
+      "video_directions": "https://www.youtube.com/watch?v=Rys5X1EQRVQ"
+    },
+    {
+      "image_url": "https://i2.wp.com/simshomekitchen.com/wp-content/uploads/2020/03/nigerian-puff-puff-with-pepper-01-1-scaled.jpg?resize=1024%2C755&ssl=1",
+      "social_rank": 98.5,
+      "_id": "5dd2cf62048fe004af10004",
+      "publisher": "Chef Lola's Kitchen",
+      "source_url": "https://cheflolaskitchen.com/spicy-puff-puff-recipe/",
+      "recipe_id": "9jarecapp0004",
+      "publisher_url": "https://cheflolaskitchen.com",
+      "title": "Pepper Puff Puff",
+      "ingredients": [
+        "2 Cups all-purpose Flour",
+        "1 to 1-1/4 Cup Water",
+        "2 Teaspoons Yeast",
+        "1 Teaspoon Nutmeg (optional)",
+        "1/2 Teaspoon Salt",
+        "1/4 to 1/2 Cup Sugar",
+        "1/4 Cup Onion (Blended/Grated)",
+        "1/2 Teaspoon Cayenne Pepper",
+        "vegetable oil or sunflower oil"        
+      ],
+      "category": "Pastry",
+      "video_directions": "https://youtu.be/dh8C11_uGhE"
+    },
+    {
+      "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2015/07/Nigerian-Meat-Pie-3.jpg",
+      "social_rank": 97.8,
+      "_id": "5dd2cf62048fe004af10005",
+      "publisher": "Chef Lola's Kitchen",
+      "source_url": "https://cheflolaskitchen.com/west-african-meat-pie/",
+      "recipe_id": "9jarecapp0005",
+      "publisher_url": "https://cheflolaskitchen.com",
+      "title": "Meat Pie",
+      "ingredients": [
+        "1 Cup Carrots diced",
+        "1 Cup Potatoes diced",
+        "1.25 Tsp Salt",
+        "1 Tsp Curry powder",
+        "1/2 Tsp Thyme",
+        "2 Bouillon Cubes",
+        "1/2 Cup Water",
+        "2 Tbsp Flour",
+        "1 lb Ground beef",
+        "1.5 tbsp vegetable Oil",
+        "4 cups all purpose flour",
+        "10  Tbsp Margarine",
+        "10  tbsp Butter",
+        "1 Tsp Baking Powder",
+        "1/2 Tsp Nutmeg"
+      ],
+      "category": "Pastry",
+      "video_directions": "https://www.youtube.com/watch?v=QAKBUwN9w70&t=78s"
+    },
+    {
+      "image_url": "https://allnigerianfoods.com/wp-content/uploads/2015/02/moi-moi.jpg",
+      "social_rank": 97.9,
+      "_id": "5dd2cf62048fe004af10006",
+      "publisher": "All Nigerian Foods",
+      "source_url": "https://allnigerianfoods.com/moi-moi",
+      "recipe_id": "9jarecapp0006",
+      "publisher_url": "https://allnigerianfoods.com",
+      "title": "Moi Moi (Beans Pudding)",
+      "ingredients": [
+        "3 cups of beans",
+        "1 cup of sliced onions",
+        "Salt to taste.",
+        "Crayfish (1 cup)",
+        "3 Chilli/Scotch Bonnet Pepper",
+        "3 seasoning cubes",
+        "Half cup of vegetable oil",
+        "7 Cooked Eggs (optional)",
+        "1 kg of Mackerel (optional)"
+      ],
+      "category": "Breakfast",
+      "video_directions": "https://www.youtube.com/watch?v=3ulDECVjMqI&t=193s"
     }
+
+
   ]
 }
