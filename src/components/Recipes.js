@@ -25,7 +25,7 @@ const Recipes = (props) => (
                     : `${recipe.title.substring(0, 25)}...`}
                 </h5>
                 <p className="recipes__subtitle">
-                  Publisher: <span>{recipe.publisher}</span>
+                  By: <span>{recipe.publisher}</span>
                 </p>
               </div>
               <button className="recipe_buttons">
