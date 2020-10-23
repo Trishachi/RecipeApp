@@ -37,12 +37,12 @@ class Recipe extends React.Component {
               <div className="col-md-6">
                 <h3 className="active-recipe__title">{recipe.title}</h3>
                 <h4 className="active-recipe__publisher">
-                  Publisher: <span>{recipe.publisher}</span>
+                  By: <span>{recipe.publisher}</span>
                 </h4>
                 <p className="active-recipe__website">
                   Website:{" "}
                   <span>
-                    <a href={recipe.publisher_url}>recipe.publisher_url</a>
+                    <a href={recipe.publisher_url}>View Source</a>
                   </span>
                 </p>
                 {/* <p>{recipe.image_url}</p>
@@ -52,9 +52,33 @@ class Recipe extends React.Component {
                   <Link to="/">Go Home</Link>
                 </button>
               </div>
+              <div className="row">
+                <div className="col-md-12 ">
+                  <div className="active-recipe__video">
+                    <p>Video Content</p>
+
+                    <iframe
+                      width="560"
+                      height="315"
+                      src={recipe.video_directions}
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                      title="video"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         )}
+        <footer>
+          <div className="row">
+            <p className="copyright font-italic recipe-footer">
+              Copyright © 2020 | Chisom Trisha Okoye
+            </p>
+          </div>
+        </footer>
       </div>
     );
   }

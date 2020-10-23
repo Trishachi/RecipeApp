@@ -2,8 +2,7 @@
   "count": 10,
   "recipes": [
     {
-      "image_url": "https://elleyajoku.com/wp-content/uploads/2017/10/jollof-rice-recipe_.jpg",
-      "social_rank": 99.99993605898699,
+      "image_url": "https://elleyajoku.com/wp-content/uploads/2017/10/jollof-rice-recipe_.jpg",      
       "_id": "5dd2cf62048fe004af10001",
       "publisher": "Elaanor's Dish",
       "source_url": "https://elleyajoku.com/food/jollof-rice-recipe",
@@ -23,11 +22,10 @@
         "2 cups of chicken stock\n"
       ],
       "category": "Chicken",
-      "video_directions": "https://www.youtube.com/watch?v=I0sntxjUe6U"
+      "video_directions": "https://www.youtube.com/embed/I0sntxjUe6U"
     },
     {
-      "image_url": "https://www.kitchenbutterfly.com/wp-content/uploads/2015/01/5483300828_94e837c676.jpg",
-      "social_rank": 98.77765,
+      "image_url": "https://www.kitchenbutterfly.com/wp-content/uploads/2015/01/5483300828_94e837c676.jpg",      
       "_id": "5dd2cf62048fe004af10002",
       "publisher": "Kitchen Butterfly",
       "source_url": "https://www.kitchenbutterfly.com/2011/how-to-make-nigerian-pepper-soup/",
@@ -45,11 +43,10 @@
         "2 teaspoons of ground crayfish (optional)"
       ],
       "category": "Soup",
-      "video_directions": "https://www.youtube.com/watch?v=TuY5SA5Dcq0"
+      "video_directions": "https://www.youtube.com/embed/TuY5SA5Dcq0"
     },
     {
-      "image_url": "https://answersnigeria.com/wp-content/uploads/2020/02/egusi-soup-recipe-806x440.jpg",
-      "social_rank": 99.67,
+      "image_url": "https://answersnigeria.com/wp-content/uploads/2020/02/egusi-soup-recipe-806x440.jpg",      
       "_id": "5dd2cf62048fe004af10003",
       "publisher": "Answers Nigeria",
       "source_url": "https://answersnigeria.com/egusi-soup/",
@@ -69,11 +66,10 @@
         "1 cup bitter leaves/spinach"
       ],
       "category": "Soup",
-      "video_directions": "https://www.youtube.com/watch?v=Rys5X1EQRVQ"
+      "video_directions": "https://www.youtube.com/embed/Rys5X1EQRVQ"
     },
     {
-      "image_url": "https://i2.wp.com/simshomekitchen.com/wp-content/uploads/2020/03/nigerian-puff-puff-with-pepper-01-1-scaled.jpg?resize=1024%2C755&ssl=1",
-      "social_rank": 98.5,
+      "image_url": "https://i2.wp.com/simshomekitchen.com/wp-content/uploads/2020/03/nigerian-puff-puff-with-pepper-01-1-scaled.jpg?resize=1024%2C755&ssl=1",      
       "_id": "5dd2cf62048fe004af10004",
       "publisher": "Chef Lola's Kitchen",
       "source_url": "https://cheflolaskitchen.com/spicy-puff-puff-recipe/",
@@ -92,11 +88,10 @@
         "vegetable oil or sunflower oil"        
       ],
       "category": "Pastry",
-      "video_directions": "https://youtu.be/dh8C11_uGhE"
+      "video_directions": "https://www.youtube.com/embed/dh8C11_uGhE"
     },
     {
-      "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2015/07/Nigerian-Meat-Pie-3.jpg",
-      "social_rank": 97.8,
+      "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2015/07/Nigerian-Meat-Pie-3.jpg",      
       "_id": "5dd2cf62048fe004af10005",
       "publisher": "Chef Lola's Kitchen",
       "source_url": "https://cheflolaskitchen.com/west-african-meat-pie/",
@@ -121,11 +116,10 @@
         "1/2 Tsp Nutmeg"
       ],
       "category": "Pastry",
-      "video_directions": "https://www.youtube.com/watch?v=QAKBUwN9w70&t=78s"
+      "video_directions": "https://www.youtube.com/embed/QAKBUwN9w70"
     },
     {
-      "image_url": "https://allnigerianfoods.com/wp-content/uploads/2015/02/moi-moi.jpg",
-      "social_rank": 97.9,
+      "image_url": "https://allnigerianfoods.com/wp-content/uploads/2015/02/moi-moi.jpg",      
       "_id": "5dd2cf62048fe004af10006",
       "publisher": "All Nigerian Foods",
       "source_url": "https://allnigerianfoods.com/moi-moi",
@@ -144,7 +138,7 @@
         "1 kg of Mackerel (optional)"
       ],
       "category": "Breakfast",
-      "video_directions": "https://www.youtube.com/watch?v=3ulDECVjMqI&t=193s"
+      "video_directions": "https://www.youtube.com/embed/3ulDECVjMqI"
     }
 
 

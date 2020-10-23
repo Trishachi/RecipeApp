@@ -112,6 +112,12 @@ footer .copyright {
   font-size: 0.85em;
 }
 
+.recipe-footer {
+  margin: 15px 0;
+  text-align: center;
+  width: 100%;
+}
+
 /******** RECIPE.js ********/
 
 .active-recipe {
@@ -149,7 +155,7 @@ footer .copyright {
 }
 
 .active-recipe__website span {
-  text-transform: lowercase;
+  text-transform: capitalize;
   font-weight: 300;
   letter-spacing: 2px;
   color: #e74c3c;
@@ -165,4 +171,7 @@ footer .copyright {
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 500;
+}
+
+.active-recipe__video {
 }
