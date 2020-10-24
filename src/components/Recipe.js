@@ -58,9 +58,9 @@ class Recipe extends React.Component {
                 <p className="active-recipe__website">
                   Website:{" "}
                   <span>
-                    <a href={recipe.publisher_url}>View Source</a>
+                    <a href={recipe.publisher_url} target="_blank">View Source</a>
                   </span>
-                </p>       
+                </p>   
                 
               </div>              
             </div>
@@ -68,6 +68,7 @@ class Recipe extends React.Component {
                 <div className="col-md-12 active-recipe__video">
                   <div className="">
                     <h4>Video Instructions</h4>
+                    <p>Below is a video altenative of the {recipe.title} recipe if you prefer to learn by wacthing videos rather than reading. </p>
                     <iframe
                       width="560"
                       height="315"
