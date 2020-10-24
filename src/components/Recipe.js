@@ -20,6 +20,10 @@ class Recipe extends React.Component {
     this.setState({ activeRecipe: result[0] });
   };
 
+  getIngredients = (arr) => {
+    return arr.join(", ")
+  }
+
   render() {
     const recipe = this.state.activeRecipe;
     return (
@@ -37,39 +41,48 @@ class Recipe extends React.Component {
               <div className="col-md-6">
                 <h3 className="active-recipe__title">{recipe.title}</h3>
                 <h4 className="active-recipe__publisher">
-                  By: <span>{recipe.publisher}</span>
-                </h4>
+                  By: <span><strong>{recipe.publisher}</strong></span>
+                </h4>                
+                <p className="active-recipe__description">
+                  Description:{" "}
+                  <span>            
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum, lorem et convallis pellentesque, leo lorem pretium nulla, ac commodo mi quam sed massa. Nam et lorem convallis, dignissim arcu vel, placerat nulla.
+                  </span>
+                </p>
+                <p className="active-recipe__Ingredients">
+                  Ingredients:{" "}
+                  <span>            
+                    { this.getIngredients(recipe.ingredients)} 
+                  </span>
+                </p>
                 <p className="active-recipe__website">
                   Website:{" "}
                   <span>
                     <a href={recipe.publisher_url}>View Source</a>
                   </span>
-                </p>
-                {/* <p>{recipe.image_url}</p>
-                <p>{recipe.source_url}</p>
-                <p>{recipe.social_rank}</p> */}
-                <button className="active-recipe__button">
-                  <Link to="/">Go Home</Link>
-                </button>
-              </div>
-              <div className="row">
-                <div className="col-md-12 ">
-                  <div className="active-recipe__video">
-                    <p>Video Content</p>
-
+                </p>       
+                
+              </div>              
+            </div>
+            <div className="row">
+                <div className="col-md-12 active-recipe__video">
+                  <div className="">
+                    <h4>Video Instructions</h4>
                     <iframe
                       width="560"
                       height="315"
                       src={recipe.video_directions}
-                      frameborder="0"
+                      frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
+                      allowFullScreen
                       title="video"
                     ></iframe>
-                  </div>
-                </div>
+                    <button className="active-recipe__button">
+                      <Link to="/">Go Home</Link>
+                    </button>
+                  </div>                  
+                </div>                
               </div>
-            </div>
           </div>
         )}
         <footer>
