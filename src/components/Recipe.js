@@ -49,10 +49,11 @@ class Recipe extends React.Component {
                 <p className="active-recipe__description">
                   Description:{" "}
                   <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Cras condimentum, lorem et convallis pellentesque, leo lorem
                     pretium nulla, ac commodo mi quam sed massa. Nam et lorem
-                    convallis, dignissim arcu vel, placerat nulla.
+                    convallis, dignissim arcu vel, placerat nulla. */}
+                    {recipe.description}
                   </span>
                 </p>
                 <p className="active-recipe__Ingredients">
@@ -62,7 +63,7 @@ class Recipe extends React.Component {
                 <p className="active-recipe__website">
                   Website:{" "}
                   <span>
-                    <a href={recipe.publisher_url} target="_blank">
+                    <a href={recipe.source_url} target="_blank">
                       View Source
                     </a>
                   </span>

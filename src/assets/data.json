@@ -4,6 +4,7 @@
     {
       "image_url": "https://elleyajoku.com/wp-content/uploads/2017/10/jollof-rice-recipe_.jpg",      
       "_id": "5dd2cf62048fe004af10001",
+      "description": "The Nigerian Party Jollof Rice needs no introduction. There simply isn't an event in Nigeria without it. In the lifetime of an average Nigerian, the party jollof rice would have been eaten in thousands of portions.",
       "publisher": "Elaanor's Dish",
       "source_url": "https://elleyajoku.com/food/jollof-rice-recipe",
       "recipe_id": "9jarecapp0001",
@@ -27,6 +28,7 @@
     {
       "image_url": "https://www.kitchenbutterfly.com/wp-content/uploads/2015/01/5483300828_94e837c676.jpg",      
       "_id": "5dd2cf62048fe004af10002",
+      "description": "A hot and spicy broth made with a choice of meat (chicken/beef/goat and sometimes lamb) or fish (usually catfish). Seasoned with a blend of aromatic and authentic African spices. Mostly served with yam, bread, plantain, potatoe, rice or eaten 'as is'.",
       "publisher": "Kitchen Butterfly",
       "source_url": "https://www.kitchenbutterfly.com/2011/how-to-make-nigerian-pepper-soup/",
       "recipe_id": "9jarecapp0002",
@@ -48,6 +50,7 @@
     {
       "image_url": "https://answersnigeria.com/wp-content/uploads/2020/02/egusi-soup-recipe-806x440.jpg",      
       "_id": "5dd2cf62048fe004af10003",
+      "description": "Egusi soup is a classic Nigerian staple soup enjoyed in various forms across the country. It is usually served with swallows like Eba, Amala, Semovita, Pounded yam, Fufu, and the likes. It doubles as Nigeria’s favorite and also the most popular soup in Nigeria. Present in all Nigerian Restaurants.",
       "publisher": "Answers Nigeria",
       "source_url": "https://answersnigeria.com/egusi-soup/",
       "recipe_id": "9jarecapp0003",
@@ -71,6 +74,7 @@
     {
       "image_url": "https://i2.wp.com/simshomekitchen.com/wp-content/uploads/2020/03/nigerian-puff-puff-with-pepper-01-1-scaled.jpg?resize=1024%2C755&ssl=1",      
       "_id": "5dd2cf62048fe004af10004",
+      "description": "A very popular quick and easy to make West African street food, similar to doughnuts. Dangeroulsy delicious and addictive. The puff puff is both fun to make and eat. It comes in a sweet and a peppered variety. Although the sweet version is more popular, I personaly like the kick of this version.",
       "publisher": "Chef Lola's Kitchen",
       "source_url": "https://cheflolaskitchen.com/spicy-puff-puff-recipe/",
       "recipe_id": "9jarecapp0004",
@@ -93,6 +97,7 @@
     {
       "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2015/07/Nigerian-Meat-Pie-3.jpg",      
       "_id": "5dd2cf62048fe004af10005",
+      "description": "A delicious pastry filled with minced meat, potatoe and carrots. The outer bit is slighty flaky and very rich in flavour while the filling is very moist and appetizing. A must try ultimate comfort food.",
       "publisher": "Chef Lola's Kitchen",
       "source_url": "https://cheflolaskitchen.com/west-african-meat-pie/",
       "recipe_id": "9jarecapp0005",
@@ -121,6 +126,7 @@
     {
       "image_url": "https://allnigerianfoods.com/wp-content/uploads/2015/02/moi-moi.jpg",      
       "_id": "5dd2cf62048fe004af10006",
+      "description": "A popular accompanying dish in Nigeria. It is commonly served with Jollof Rice, Fried Rice, Fried Plantain, Custard, Akamu (Pap, Ogi) etc or can be eaten alone as a snack. Due to its popularity, Moi Moi is often served at parties, dinners and other special occasions",
       "publisher": "All Nigerian Foods",
       "source_url": "https://allnigerianfoods.com/moi-moi",
       "recipe_id": "9jarecapp0006",
