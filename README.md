@@ -2,29 +2,34 @@
 
 ## About
 
-A Nigerian recipe finder application built using ReactJS.
-
-<!-- - [Updating to New Releases](#updating-to-new-releases)
-- [Sending Feedback](#sending-feedback)
-- [Folder Structure](#folder-structure)
-- [Available Scripts](#available-scripts)
-  - [npm start](#npm-start)
-  - [npm test](#npm-test)
-  - [npm run build](#npm-run-build)
-  - [npm run eject](#npm-run-eject)
+A Nigerian recipe finder application built using ReactJS. This is sort of a repository of my tested and trusted Nigerian recipes which will continue to grow as I try out more recipes.
 
 ## How to Use
 
-Create React App is divided into two packages:
-
-- `create-react-app` is a global command-line utility that you use to create new projects.
-- `react-scripts` is a development dependency in the generated projects (including this one).
+- Search for recipe by typing in keyword and clicking on the Search Button
+- Click on View Recipe button to view recipe details
+- Read about the recipe, click on view source to view detailed preparation instructions or watch video on youtube
+- Click on Go Home button to return to home page
 
 ## Technologies Used
 
-## Challenges & Solutions
+- React JS
+- React Router
+- Bootstrap
+- Media Queries
+- Local JSON Data Storage
+- Git Version Control
+- GitHub Deployment
 
 ## Screenshots
+
+![alt text](./src/assets/screenshots/home.jpg "Home Page")
+
+![alt text](./src/assets/screenshots/recipePage.jpg "Recipe Page")
+
+<!-- ## Challenges & Solutions
+
+
 
 In the project directory, you can run:
 
