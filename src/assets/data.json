@@ -3,7 +3,7 @@
   "recipes": [
     {
       "image_url": "https://elleyajoku.com/wp-content/uploads/2017/10/jollof-rice-recipe_.jpg",      
-      "_id": "5dd2cf62048fe004af10001",
+      
       "description": "The Nigerian Party Jollof Rice needs no introduction. There simply isn't an event in Nigeria without it. In the lifetime of an average Nigerian, the party jollof rice would have been eaten in thousands of portions.",
       "publisher": "Elaanor's Dish",
       "source_url": "https://elleyajoku.com/food/jollof-rice-recipe",
@@ -145,6 +145,73 @@
       ],
       "category": "Breakfast",
       "video_directions": "https://www.youtube.com/embed/3ulDECVjMqI"
+    },
+    {
+      "image_url": "https://www.nairaland.com/attachments/12337927_images_jpeg_jpegeb6c065c105cfe1af50da1aeadfb7a99",      
+      "_id": "5dd2cf62048fe004af10007",
+      "description": "Okpa is a cheap, very filling, delicious and healthy on-the-go food especially for people on a diet or diabetics. The secret to making the best okpa is to use as few ingredients as possible because okpa beans (Bambara nuts) have a natural delicious flavour, which is ruined by adding a lot of seasoning.",
+      "publisher": "The Pretend Chef",
+      "source_url": "http://www.thepretendchef.com/okpa/",
+      "recipe_id": "9jarecapp0007",
+      "publisher_url": "http://www.thepretendchef.com",
+      "title": "Okpa (Bambara Pudding)",
+      "ingredients": [
+        "3 Cups of Okpa (Bambara Nut) Powder",
+        "1/2 cup or 15 tablespoons of palm oil",
+        "Salt to taste",
+        "2 small stock/bouillon cubes (Maggi, Knorr etc)",
+        "2 Scotch Bonnet (fresh pepper)",
+        "5 cups warm water."        
+      ],
+      "category": "breakfast",
+      "video_directions": "https://www.youtube.com/embed/KiOI54ao2Mc"
+    },
+    {
+      "image_url": "https://www.allnigerianrecipes.com/wp-content/uploads/2019/08/ofe-nsala.jpg",      
+      "description": "A mouth watering delicacy peculiar to the Igbo tribe of Nigeria. It is by far the easiest and quickest soup to prepare, making it the choice soup for impromptu guests.",
+      "publisher": "Sisi Jemimah",
+      "source_url": "https://sisijemimah.com/2015/09/10/ofe-nsala-white-soup-recipe/",
+      "recipe_id": "9jarecapp0008",
+      "publisher_url": "https://sisijemimah.com",
+      "title": "Nsala (White) Soup",
+      "ingredients": [
+        "1 Medium Size Fresh Fish (Preferably Catfish)",
+        "500gms Assorted Meat or Chicken (optional)",
+        "2-3 Pieces of Stockfish",
+        "1 Medium Size Smoked fish",
+        "1 Tablespoon Crayfish",
+        "2 Tablespoons Dry Ground Pepper or 3 Fresh Yellow Atarodo",
+        "1 Small Chunk of Ogiri Okpei/Dawadawa",
+        "2-3 Tablespoons Uziza Leaves",         
+        "1 Tablespoon Utazi",
+        "2  Calabash Nutmeg seed (Ehuru)",
+        "1 Uda pod",
+        "4 Medium Slices of Yam",
+        "2 Knorr Cubes",
+        "Salt to taste"
+      ],
+      "category": "Soup",
+      "video_directions": "https://www.youtube.com/embed/2YiKhztGinA"
+    },
+    {
+      "image_url": "https://makmigrofarmsltd.com/wp-content/uploads/2019/02/IMG_20190222_133022_340.jpg",      
+      "description": "Nothing warms up a weekend breafast like a plate of old faithful akara stuffed in freshly baked bread (Agege bread) and served with a bowl of akamu (pap - fermented corn pudding). Akara is similar to moi moi (since they both have a pureed beans base) and almost as popular a favorite street food as puff puff.",
+      "publisher": "My Diaspora Kitchen",
+      "source_url": "https://www.mydiasporakitchen.com/akara-balls-black-eyed-peas-fritters/",
+      "recipe_id": "9jarecapp0009",
+      "publisher_url": "https://www.mydiasporakitchen.com/",
+      "title": "Akara (Bean Fritters)",
+      "ingredients": [
+        "2 cups beans",
+        "1 chili bell pepper",
+        "3 scotch bonnet peppers",
+        "1 onion bulb",
+        "1 seasoning cube",
+        "Salt to taste",
+        "Veg oil for frying"
+      ],
+      "category": "breakfast",
+      "video_directions": "https://www.youtube.com/embed/6pBL7vaeaD4"
     }
 
 
