@@ -49,6 +49,8 @@ A Nigerian recipe finder application built using ReactJS. This is sort of a repo
 - https://github.com/facebook/create-react-app/issues/1765
 - https://reactrouter.com/web/api/BrowserRouter/basename-string
 
+---
+
 2. I decided to use a simple html `iframe` instead of installing yet another `npm` package (react-youtube). I got the video frame to display, but the embedded YouTube Videos were not loading on the recipe page.
 
 **Findings -** YouTube has some restrictions on the embedding of their site on third party sites using a YouTube watch id/url. They however offer an _"embed video"_ id/url to be used when embedding videos on external sites.
