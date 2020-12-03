@@ -27,10 +27,26 @@ A Nigerian recipe finder application built using ReactJS. This is sort of a repo
 
 ![alt text](./src/assets/screenshots/recipePage.jpg "Recipe Page")
 
-<!-- ## Challenges & Solutions
+## Challenges & Solutions
 
+---
 
+1. Blank screen on deployment of App to GitHub pages (when using react router)
 
-In the project directory, you can run:
+**Findings -** GitHub pages is not smart enough to use React Router out of the box. You will need to make some slight configurations to the app routes to get your app to display on GitHub pages. This is because on deployment, GitHub by default is set to look for your app on the path _"/"_ ie _"https://username.github.io/"_ but since the main project is on _"https://username.github.io/AppName-Here"_, if finds nothing and so returns a blank page or a 404 page.
 
-### `DangerButton.js` -->
+**Solution -** Use `process.env.PUBLIC_URL` in your route definitions. React Router has a basename property that can be used for setting the base URL for all locations.
+
+```javascript
+<BrowserRouter basename={process.env.PUBLIC_URL}>
+  <Switch>
+    <Route path="/" component={App} exact />
+    <Route path="/recipe/:id" component={Recipe} />
+  </Switch>
+</BrowserRouter>
+```
+
+**References -**
+
+- https://github.com/facebook/create-react-app/issues/1765
+- https://reactrouter.com/web/api/BrowserRouter/basename-string
